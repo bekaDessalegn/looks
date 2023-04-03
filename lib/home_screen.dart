@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:looks/widgets/customer_header.dart';
 import 'package:looks/widgets/first_header.dart';
+import 'package:looks/widgets/scroll_category.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -13,7 +14,8 @@ class HomeScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: Column(
           children: [
-            firstCont()
+            firstCont(),
+            ScrollCategory()
           ],
         ),
       ),
